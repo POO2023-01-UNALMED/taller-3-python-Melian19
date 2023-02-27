@@ -8,7 +8,8 @@ class TV:
         self.__estado = estado
         self.__volumen = 1
         self.__control = None
-        TV.numTv += 1
+        
+        TV.__numTv += 1
 
     #get & set methods
 
