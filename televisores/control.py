@@ -31,8 +31,8 @@ class Control:
         self.__tv.setCanal(number)
     
     def enlazar(self, television):
-        self.__tv.setControl(self)
         self.__tv = television
+        self.__tv.setControl(self)
 
 
         
