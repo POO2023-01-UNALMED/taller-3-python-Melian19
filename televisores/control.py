@@ -1,9 +1,7 @@
-from tv import TV
-
 class Control:
 
     def __init__(self):
-        self.__tv = TV
+        self.__tv = None
 
     def getTv(self):
         return self.__tv
